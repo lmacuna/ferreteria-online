@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online | Tienda</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Nunito">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/tienda.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fa-solid fa-store"></i>Ferretería online</h1> 
+        <button id="btn-carro" title="MOSTRAR CARRO || ESCONDER CARRO" style="cursor: pointer;margin-left: auto;" onclick="carroActivo()"><b style="color:red">CLICK<i class="fa-solid fa-arrow-right"></i></b><i class="fa-solid fa-cart-shopping"></i></button><!-- <label class="label-btn-carro" for="btn-carro">ON/OFF</label> -->
+        <div id="box-totales"><button id="btn-eliminar" title="ELIMINAR CARRO" onclick="eliminarCarro()"><i class="fa-solid fa-trash-can"></i></button><button onclick="redirectPay()" class="btn-pay"><i class="fa-brands fa-cc-amazon-pay"></i></button><label class="label-btn-eliminar" for="btn-eliminar">TOTAL</label><div id="cantidad"></div><div id="total-carro"></div></div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+        </ul>
+    </nav>
+    <h3>Tienda</h3>
+     <main>
+        <div id="tienda">
+
+        </div>
+        <div id="carro">
+
+        </div>
+     </main>
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.6.1/sweetalert2.all.min.js"></script>
+    <script src="SERVICES/services.js"></script>
+    <script src="JS/tienda.js"></script>
+</body>
+</html>

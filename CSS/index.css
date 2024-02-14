@@ -1,0 +1,141 @@
+#inicio {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 20px;
+    height: auto;
+   /*  border: 2px solid red; */
+    margin-top: 120px;
+    background: white !important;
+
+    @media (max-width:952px) {
+        flex-direction: column;
+    }
+
+}
+
+
+section {
+    width: 60%;
+    height: 32em;
+    flex-direction: column;
+    /* border: 1px solid rgb(71, 71, 71); */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  @media (max-width: 1116px) {
+    height: auto !important;
+    
+  }
+    @media (max-width:952px) {
+        width: 98%;
+        height: auto !important;
+    }
+
+}
+
+section>img {
+    width: 100%;
+    height: 50%;
+
+    @media (max-width:952px) {
+        width: 100%;
+        height: 55%;
+    }
+}
+
+section>article {
+    width: 100%;
+    /* border: 2px solid blue; */
+    padding: 5px;
+    height: 55%;
+    font-family: 'Nunito', 'Serif', sans-serif !important;
+
+    @media (max-width:952px) {
+        width: 100%;
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+
+section>article>p::first-letter {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+aside {
+    width: 25%;
+    left: 50px;
+    position: relative;
+    height: 32em;
+    /* border: 1px solid rgb(71, 71, 71); */
+    background: rgb(235,235,235);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 1116px) {
+        height: 36em !important;
+      
+      }
+    @media (max-width:952px) {
+        width: 98% !important;
+        flex-direction: row !important;
+        align-items: start;
+        height: auto !important;
+        margin-top: 2px;
+        left: 0;
+      
+    }
+
+    @media (max-width:700px) {
+
+        flex-direction: column !important;
+        align-items: start;
+        height: auto;
+        margin-top: 2px;
+        padding-bottom: 40px;
+    }
+}
+
+aside>img {
+    width: 100%;
+    height: 35%;
+
+    @media (max-width:952px) {
+        width: 50% !important;
+
+    }
+
+    @media (max-width:700px) {
+        width: 100% !important;
+    }
+}
+
+aside>p {
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    font-size: 12px;
+
+    color: rgb(0,0,0);
+
+    @media (max-width:952px) {
+        width: 50% !important;
+
+    }
+
+    @media (max-width:700px) {
+        width: 100% !important;
+        height: auto;
+        padding: 5px;
+    }
+}
+
+aside>p::first-letter {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif !important;
+}

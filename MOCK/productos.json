@@ -1,0 +1,88 @@
+{
+    "data":[
+        {
+            "id":1,
+            "img":"data:image/jpeg;base64,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",
+            "articulo":"Pinza Universal 8",
+            "precio":26000
+        },
+        {
+            "id":2,
+            "img":"https://mla-s1-p.mlstatic.com/995700-MLA49771215203_042022-F.jpg",
+            "articulo":"Destornillador Bremen",
+            "precio":18000
+        },
+        {
+            "id":3,
+            "img":"https://urquizamotos.com.ar/71045-large_default/llave-francesa-ajustable-12-pulgadas-mango-grip-truper.jpg",
+            "articulo":"Llave Fra Truper",
+            "precio":32000
+        },
+        {
+            "id":4,
+            "img":"https://cdnx.jumpseller.com/maqstore/image/34056072/resize/540/540?1681231410",
+            "articulo":"Martillo B Biassoni",
+            "precio":42000
+        },
+        {
+            "id":5,
+            "img":"https://fibarcellona.com.ar/6066-medium_default/serrucho-carpintero-afilable-22-bahco.jpg",
+            "articulo":"Serrucho Bahco",
+            "precio":37000
+        },
+        {
+            "id":6,
+            "img":"https://arcomaquinarias.com.ar/img/photo/A50001475.jpg",
+            "articulo":"Pala Punta/Biassoni",
+            "precio":81000
+        },
+        {
+            "id":7,
+            "img":"https://acdn.mitiendanube.com/stores/001/044/185/products/69-tenaza-carpintero-71-8334c5bf764483c82f15815446805191-640-0.jpg",
+            "articulo":"Tenaza hamilton",
+            "precio":22000
+        },
+        {
+            "id":8,
+            "img":"https://bulplus.net/wp-content/uploads/2021/12/EYC50C.jpg",
+            "articulo":"Clavos hamilton",
+            "precio":26000
+        },
+        {
+            "id":9,
+            "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ40ThbfFkYwBk8Y64WEQOkP30bEAMhhxOZv-R04pGeFZ429at2JJ2jBLeMm7trX-dMuYo&usqp=CAU",
+            "articulo":"Taladro Dewalt",
+            "precio":55000
+        }
+        ,{
+            "id":10,
+            "img":"https://materialescomaco.com.ar/wp-content/uploads/2020/07/balde-de-alba%C3%B1il-materiales-comaco.jpg",
+            "articulo":"Balde Comaco",
+            "precio":15000
+        },
+        {
+            "id":11,
+            "img":"https://www.abrafersrl.com.ar/wp-content/uploads/BAH08330-1.jpg",
+            "articulo":"Tubo-set Bahco",
+            "precio":85000
+        },
+        {
+            "id":12,
+            "img":"data:image/jpeg;base64,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",
+            "articulo":"Rodillo Perfect",
+            "precio":6000
+        },
+        {
+            "id":13,
+            "img":"https://tecneclima.com.ar/7229-superlarge_default/tarugos-para-precintos-del-6-mm-gris-x-50-unid.jpg",
+            "articulo":"Tarugo Hugovich",
+            "precio":500
+        },
+        {
+            "id":14,
+            "img":"https://hamilton.com.ar/wp-content/uploads/2023/04/APL100A.jpg",
+            "articulo":"P/Loro Hamilton",
+            "precio":31000
+        }
+    ]
+}
